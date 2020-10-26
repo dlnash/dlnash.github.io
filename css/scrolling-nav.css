@@ -6,11 +6,13 @@
 
 
 header {
-  padding: 100px 50px 50px 50px;
+  padding: 150px 50px 50px 50px;
   background-color: #09847A;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+/*  justify-content: space-between;*/
+  justify-content: space-around;
+  align-items: right;
+  flex-wrap: wrap;
 }
 
 section {
@@ -50,6 +52,7 @@ text-primary {
 img {
 	max-width: 100%;
 	height: auto;
+    margin-right: 50px;
 }
 
 /**
@@ -63,39 +66,4 @@ img {
 	margin: 0 auto;
 }
 
-/**
-from https://flexbox.ninja/demos/website-header/
- * By using display: flex
- * Logo and nav are in 2 cols
- * align-items make them
- * vertically centered
- * justify-content distribute
- * horizontal spaces around
- * and flex-wrap break the
- * things in two lines in
- * small screens
- */
-.main-header .container {
-	display: flex;
-	align-items: center;
-	justify-content: space-around;
-	flex-wrap: wrap;
-}
-
-/**
- * The followings are to
- * make things more
- * clean and airy
- * and contents centered
- */
-.main-nav ul {
-	margin: 1em 0 .5em;
-	text-align: center;
-}
-.main-nav li {
-	display: inline;
-}
-.main-nav a {
-	display: inline-block;
-	padding: .5em 1.5em;
-}
+			
