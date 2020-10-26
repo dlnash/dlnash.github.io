@@ -13,6 +13,7 @@ header {
   justify-content: space-around;
   align-items: right;
   flex-wrap: wrap;
+  text-align: left;
 }
 
 section {
@@ -52,7 +53,8 @@ text-primary {
 img {
 	max-width: 100%;
 	height: auto;
-    margin-right: 50px;
+    margin-right: 25px;
+    align-content: left;
 }
 
 /**
