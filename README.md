@@ -1,6 +1,15 @@
-## Website 
+## Website
 http://dlnash.github.io
 
-## Copyright and License
+## Credits:
 
-Copyright 2013-2020 Start Bootstrap LLC. Code released under the [MIT](https://github.com/StartBootstrap/startbootstrap-scrolling-nav/blob/gh-pages/LICENSE) license.
+	Webpage:
+    AJ | aj@lkn.io | @ajlkn
+
+	Icons:
+		Font Awesome (fontawesome.io)
+
+	Other:
+		jQuery (jquery.com)
+		Scrollex (github.com/ajlkn/jquery.scrollex)
+		Responsive Tools (github.com/ajlkn/responsive-tools)
